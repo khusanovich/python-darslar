@@ -1,0 +1,54 @@
+
+# "Hello World!" matnini yangi o'zgaruvchiga yuklang va print() yordamida konsolga chiqaring
+
+
+''' "xabar = """Срок замены водительских удостоверений и техпаспортов продлили до конца 2022 года:
+ https://www.spot.uz/ru/2021/11/18/driver-license/?utm_source=push&utm_medium=telegram"""
+ print(xabar) 
+ 
+ism = "Asliddin"
+familiya = "Ergashev"
+print(ism + '   ' + familiya) 
+
+print("Hello World!")
+print("Hello \tWorld!")
+print("Hello \nWorld!   ")
+
+ism = "Asliddin"
+ism = ism.upper()  
+print(ism.upper())
+ism = ism.lower()
+# ism = ism.title()
+print(ism)
+
+ism = input("Ismingiz nima?\n>>>")
+print("Assalomu alaykum, mening ismim " + ism.title())
+'''
+print("Iltimos quyidagi ma'lumotlarni kirting:")
+
+'''
+kocha = "Bog'bon"
+mahalla = "Sogbon"
+tuman = "Bodomzor"
+viloyat = "Samarqand"
+'''
+
+kocha = input("Ko'changiz nomi:")
+mahalla = input("Mahhalla nomi:")
+tuman = input("Tuman nomi:")
+viloyat = input("Viloyat nomi:")
+
+# print("Bizning ko'cha" + kocha)
+
+manzil = f"{kocha} ko'chasi, {mahalla} mahallasi, {tuman} tumani, {viloyat} viloyati"
+print(manzil.upper())
+print(manzil.lower())
+print(manzil.title())
+print(manzil.capitalize())
+
+# print(" To'liq manzil: \n" + " " + kocha + " ko'chasi, \n " + mahalla + " mahallasi, \n " + tuman + " tumani, \n " + viloyat + " viloyati")
+
+
+
+
+

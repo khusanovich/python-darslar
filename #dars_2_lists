@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Nov 22 22:27:05 2021
+
+@author: khusanovich
+"""
+
+cars = ['Porsche', 'BMW', 'Audi', 'Mercedes', 'VW']
+cars.sort()
+print(cars)
+
+
+
+
+
+
